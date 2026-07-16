@@ -1,2 +1,105 @@
 # thermography-word-report-automation
 Automating Microsoft Word thermography inspection reports by inserting thermal and digital images using VBA.
+
+# thermography-word-report-automation
+Automating Microsoft Word thermography inspection reports by inserting thermal and digital images using VBA.
+
+**Overview
+
+Preparing thermography inspection reports manually requires inserting, resizing, and aligning hundreds of thermal and digital images into Microsoft Word tables.
+
+This project automates that entire process using Microsoft Word VBA.
+
+The macro reads image filenames from a predefined table, searches the selected image folder, automatically inserts matching images, resizes them while preserving aspect ratio, and aligns them inside table cells.
+
+Although the demonstration uses a small sample report, the automation was developed and successfully used to prepare actual inspection reports containing 300+ images, reducing report preparation time from several hours to only a few minutes.
+
+
+**Features
+
+✔ Automatic thermal image insertion
+
+✔ Automatic digital image insertion
+
+✔ Folder picker
+
+✔ Automatic JPG detection
+
+✔ Preserve aspect ratio
+
+✔ Fit images within table cells
+
+✔ Center images automatically
+
+✔ Detect missing images
+
+✔ Support large reports (300+ images)
+
+
+**Workflow
+
+Prepare Word Table (Digital Image cells 2.5/2" & Thermal Image cells 2/2")
+
+↓
+
+Enter Image File Names
+
+↓
+
+Run VBA Macro (Alt + F8)
+
+↓
+
+Select Image Folder (Give Path of Folder containing sample omages)
+
+↓
+
+Images Inserted Automatically (see magic happening :))
+
+↓
+
+Completed Inspection Report (Images inserted, now modify content, add header/footer as per your requirement)
+
+
+**Technologies
+
+Microsoft Word
+VBA (Visual Basic for Applications)
+Microsoft Office 365
+
+
+**Demo
+
+See: Word_Report_Automation_Demo.mp4
+
+
+**Project Structure
+
+word-report-automation
+
+│
+├── README.md
+├── VBA
+│     InsertThermalDigitalImages.bas
+│
+├── Sample Report
+│     SampleReport.docm
+│
+├── Demo
+│     Word_Report_Automation_Demo.mp4
+
+
+
+**Results
+
+Before	After
+Manual image insertion	Automatic image insertion
+Manual resizing	Automatic resizing
+Manual alignment	Automatic alignment
+Hours of work	Few minutes
+
+
+**Notes
+
+The demonstration files contain sample data only. Code can be utilized efficiently for 300+ images.
+
