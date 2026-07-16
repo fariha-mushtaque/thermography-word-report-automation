@@ -1,10 +1,29 @@
-# thermography-word-report-automation
-Automating Microsoft Word thermography inspection reports by inserting thermal and digital images using VBA.
+# Word Report Automation using VBA
+
+Automated the generation of Microsoft Word thermography inspection reports by inserting thermal and digital images based on image filenames using VBA.
+
+##  Project Impact
+
+-  Successfully automated reports containing **300+ images** in real-world use.
+-  Reduced report preparation time from **3–5 hours to under 10 minutes**.
+-  One-click automation for image insertion, resizing, and alignment.
+-  Eliminated repetitive manual formatting and image placement.
+
+---
+
+## Overview
+
+Preparing thermography inspection reports manually requires inserting, resizing, and aligning hundreds of thermal and digital images into Microsoft Word tables.
+
+This project automates the entire workflow by reading image filenames from a predefined table, locating the corresponding images, inserting them into the report, resizing them while preserving aspect ratio, and aligning them within the designated table cells.
+
+> **Note:** The demonstration included in this repository uses a small sample dataset (8–10 images). The same automation was successfully used to generate actual inspection reports containing **300+ images**.
+
 
 # thermography-word-report-automation
 Automating Microsoft Word thermography inspection reports by inserting thermal and digital images using VBA.
 
-**Overview
+**Overview**
 
 Preparing thermography inspection reports manually requires inserting, resizing, and aligning hundreds of thermal and digital images into Microsoft Word tables.
 
@@ -15,7 +34,7 @@ The macro reads image filenames from a predefined table, searches the selected i
 Although the demonstration uses a small sample report, the automation was developed and successfully used to prepare actual inspection reports containing 300+ images, reducing report preparation time from several hours to only a few minutes.
 
 
-**Features
+**Features**
 
 ✔ Automatic thermal image insertion
 
@@ -36,7 +55,7 @@ Although the demonstration uses a small sample report, the automation was develo
 ✔ Support large reports (300+ images)
 
 
-**Workflow
+**Workflow**
 
 Prepare Word Table (Digital Image cells 2.5/2" & Thermal Image cells 2/2")
 
@@ -61,19 +80,19 @@ Images Inserted Automatically (see magic happening :))
 Completed Inspection Report (Images inserted, now modify content, add header/footer as per your requirement)
 
 
-**Technologies
+**Technologies**
 
 Microsoft Word
 VBA (Visual Basic for Applications)
 Microsoft Office 365
 
 
-**Demo
+**Demo**
 
 See: Word_Report_Automation_Demo.mp4
 
 
-**Project Structure
+**Project Structure**
 
 word-report-automation
 
@@ -90,7 +109,7 @@ word-report-automation
 
 
 
-**Results
+**Results**
 
 Before	After
 Manual image insertion	Automatic image insertion
@@ -99,7 +118,7 @@ Manual alignment	Automatic alignment
 Hours of work	Few minutes
 
 
-**Notes
+**Notes**
 
 The demonstration files contain sample data only. Code can be utilized efficiently for 300+ images.
 
