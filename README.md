@@ -23,9 +23,6 @@ Macro is provided for automatic serial numbering also. It was used for numbering
 Although the demonstration uses a small sample report, the automation was developed and successfully used to prepare actual inspection reports containing 300+ images, reducing report preparation time from several hours to only a few minutes.
 
 
-> **Note:** The demonstration included in this repository uses a small sample dataset (8–10 images). The same automation was successfully used to generate actual inspection reports containing **300+ images**.
-
-
 **Features**
 
 ✔ Automatic thermal image insertion
@@ -46,8 +43,6 @@ Although the demonstration uses a small sample report, the automation was develo
 
 ✔ Compatible with Microsoft Word 365
 
-
-**Workflow**
 
 ## Workflow
 
