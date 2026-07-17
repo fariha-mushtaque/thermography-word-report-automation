@@ -31,53 +31,68 @@ This project automates that entire process using Microsoft Word VBA.
 
 The macro reads image filenames from a predefined table, searches the selected image folder, automatically inserts matching images, resizes them while preserving aspect ratio, and aligns them inside table cells.
 
+Macro is provided for automatic serial numbering also. It was used for numbering 200+ rows of report.
+
 Although the demonstration uses a small sample report, the automation was developed and successfully used to prepare actual inspection reports containing 300+ images, reducing report preparation time from several hours to only a few minutes.
 
 
 **Features**
 
+
 ✔ Automatic thermal image insertion
 
 ✔ Automatic digital image insertion
 
-✔ Folder picker
+✔ Automatic image resizing and alignment
 
-✔ Automatic JPG detection
+✔ Automatic serial numbering for inspection tables
 
-✔ Preserve aspect ratio
+✔ Missing image detection
 
-✔ Fit images within table cells
+✔ One-click report generation
 
-✔ Center images automatically
+✔ Supports inspection reports with 300+ images
 
-✔ Detect missing images
+✔ Preserves image aspect ratio
 
-✔ Support large reports (300+ images)
+✔ Compatible with Microsoft Word 365
 
 
 **Workflow**
 
-Prepare Word Table (Digital Image cells 2.5/2" & Thermal Image cells 2/2")
+## Workflow
+
+Prepare the Word table
+- Set the required cell dimensions (Thermal Image: **2.5" × 1.88"**, Digital Image: **2" × 1.88"**).
+- Enter the Thermal and Digital image filenames in the respective columns.
 
 ↓
 
-Enter Image File Names
+(Optional) Renumber the table
+- Press **Alt + F11** → **Insert → Module** → import **AutoSerialNumbering.bas**.
+- Run **AutoSerialNumbering.bas** to automatically update serial numbers after adding or deleting rows.
 
 ↓
 
-Run VBA Macro (Alt + F8)
+Run the image insertion macro
+- Press **Alt + F11** → **Insert → Module** → import **InsertThermalDigitalImages.bas**.
+- Press **Alt + F8** and execute **InsertThermalDigitalImages**.
+
 
 ↓
 
-Select Image Folder (Give Path of Folder containing sample omages)
+Select the image folder
+- Browse to the folder containing the thermal and digital **.jpg** images.
 
 ↓
 
-Images Inserted Automatically (see magic happening :))
+Automatic report generation
+- The macro locates matching images, inserts them into the corresponding table cells, resizes them, preserves aspect ratio, centers them, and reports any missing files.
 
 ↓
 
-Completed Inspection Report (Images inserted, now modify content, add header/footer as per your requirement)
+Finalize the report
+- Review the report, update observations and recommendations, and customize the header, footer, and formatting as required.
 
 
 **Technologies**
@@ -95,14 +110,19 @@ See: Thermography_Inspection_Report_Automation_Demo.1.mp4
 **Project Structure**
 
 Thermography-report-automation
+
 ## Project Structure
 
 ```text
-word-report-automation
+
+Inspection-Report-Automation
 │
 ├── README.md
+├── LICENSE
+│
 ├── VBA
-│     └── InsertThermalDigitalImages.bas
+│     ├── InsertThermalDigitalImages.bas
+│     └── AutoSerialNumbering.bas
 │
 ├── Sample Report
 │     └── SampleReport.docm
@@ -110,11 +130,12 @@ word-report-automation
 ├── Demo
 │     └── Thermography_Inspection_Report_Automation_Demo.mp4
 │
-├── Screenshots
+└── Screenshots
 │     ├── Before.png
 │     └── After.png
 │
 └── LICENSE
+
 ```
 
 
