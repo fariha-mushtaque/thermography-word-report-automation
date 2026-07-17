@@ -111,7 +111,7 @@ Inspection-Report-Automation
 │
 ├── Demo
 │     ├── Thermography_Inspection_Report_Automation_Demo.mp4
-│     └── Auto_Serial_Numbering_on_Report_Demo.mp4
+│     └── Auto_Serial_Numbering_Inside_Report_Demo.mp4
 │
 │
 └── Screenshots
