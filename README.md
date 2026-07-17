@@ -1,4 +1,4 @@
-# Word Report Automation using VBA
+# Inspection Report Automation using VBA
 
 Automated the generation of Microsoft Word thermography inspection reports by inserting thermal and digital images based on image filenames using VBA.
 
@@ -89,12 +89,12 @@ Microsoft Office 365
 
 **Demo**
 
-See: Word_Report_Automation_Demo.mp4
+See: Thermography_Inspection_Report_Automation_Demo.1.mp4
 
 
 **Project Structure**
 
-word-report-automation
+Thermography-report-automation
 
 │
 ├── README.md
@@ -105,17 +105,17 @@ word-report-automation
 │     SampleReport.docm
 │
 ├── Demo
-│     Word_Report_Automation_Demo.mp4
+│     Thermography_Inspection_Report_Automation_Demo.1.mp4
 
 
 
 **Results**
 
-Before	After
-Manual image insertion	Automatic image insertion
-Manual resizing	Automatic resizing
-Manual alignment	Automatic alignment
-Hours of work	Few minutes
+| Before | After |
+| -------| ------|
+|Manual image insertion|Automatic resizing|
+|Automatic resizing|Automatic alignment|
+|Hours of work|Few minutes|
 
 
 **Notes**
