@@ -1,4 +1,4 @@
-# Inspection Report Automation using VBA
+# Thermography Inspection Report Automation using VBA
 
 Automated the generation of Microsoft Word thermography inspection reports by inserting thermal and digital images based on image filenames using VBA.
 
@@ -95,18 +95,27 @@ See: Thermography_Inspection_Report_Automation_Demo.1.mp4
 **Project Structure**
 
 Thermography-report-automation
+## Project Structure
 
+```text
+word-report-automation
 │
 ├── README.md
 ├── VBA
-│     InsertThermalDigitalImages.bas
+│     └── InsertThermalDigitalImages.bas
 │
 ├── Sample Report
-│     SampleReport.docm
+│     └── SampleReport.docm
 │
 ├── Demo
-│     Thermography_Inspection_Report_Automation_Demo.1.mp4
-
+│     └── Thermography_Inspection_Report_Automation_Demo.mp4
+│
+├── Screenshots
+│     ├── before.png
+│     └── after.png
+│
+└── LICENSE
+```
 
 
 **Results**
