@@ -11,21 +11,12 @@ Automated the generation of Microsoft Word thermography inspection reports by in
 
 ---
 
-## Overview
-
-Preparing thermography inspection reports manually requires inserting, resizing, and aligning hundreds of thermal and digital images into Microsoft Word tables.
-
-This project automates the entire workflow by reading image filenames from a predefined table, locating the corresponding images, inserting them into the report, resizing them while preserving aspect ratio, and aligning them within the designated table cells.
-
-> **Note:** The demonstration included in this repository uses a small sample dataset (8–10 images). The same automation was successfully used to generate actual inspection reports containing **300+ images**.
-
-
 # thermography-word-report-automation
 Automating Microsoft Word thermography inspection reports by inserting thermal and digital images using VBA.
 
 **Overview**
 
-Preparing thermography inspection reports manually requires inserting, resizing, and aligning hundreds of thermal and digital images into Microsoft Word tables.
+Preparing thermography inspection reports manually requires inserting, resizing, and aligning hundreds of thermal and digital images into Microsoft Word tables then manually numbering each row.
 
 This project automates that entire process using Microsoft Word VBA.
 
@@ -34,6 +25,9 @@ The macro reads image filenames from a predefined table, searches the selected i
 Macro is provided for automatic serial numbering also. It was used for numbering 200+ rows of report.
 
 Although the demonstration uses a small sample report, the automation was developed and successfully used to prepare actual inspection reports containing 300+ images, reducing report preparation time from several hours to only a few minutes.
+
+
+> **Note:** The demonstration included in this repository uses a small sample dataset (8–10 images). The same automation was successfully used to generate actual inspection reports containing **300+ images**.
 
 
 **Features**
