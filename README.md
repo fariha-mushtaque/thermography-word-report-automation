@@ -8,11 +8,7 @@ Automated the generation of Microsoft Word thermography inspection reports by in
 -  Reduced report preparation time from **3–5 hours to under 10 minutes**.
 -  One-click automation for image insertion, resizing, and alignment.
 -  Eliminated repetitive manual formatting and image placement.
-
----
-
-# thermography-word-report-automation
-Automating Microsoft Word thermography inspection reports by inserting thermal and digital images using VBA.
+  
 
 **Overview**
 
@@ -31,7 +27,6 @@ Although the demonstration uses a small sample report, the automation was develo
 
 
 **Features**
-
 
 ✔ Automatic thermal image insertion
 
