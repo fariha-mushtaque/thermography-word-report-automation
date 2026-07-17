@@ -91,11 +91,9 @@ Microsoft Office 365
 See: Thermography_Inspection_Report_Automation_Demo.1.mp4
 
 
-**Project Structure**
+## Project Structure
 
 Thermography-report-automation
-
-## Project Structure
 
 ```text
 
@@ -123,7 +121,7 @@ Inspection-Report-Automation
 ```
 
 
-**Results**
+## Results
 
 | Before | After |
 | -------| ------|
