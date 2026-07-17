@@ -111,8 +111,8 @@ word-report-automation
 │     └── Thermography_Inspection_Report_Automation_Demo.mp4
 │
 ├── Screenshots
-│     ├── before.png
-│     └── after.png
+│     ├── Before.png
+│     └── After.png
 │
 └── LICENSE
 ```
