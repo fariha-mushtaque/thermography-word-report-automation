@@ -110,13 +110,13 @@ Inspection-Report-Automation
 │     └── SampleReport.docm
 │
 ├── Demo
-│     └── Thermography_Inspection_Report_Automation_Demo.mp4
+│     ├── Thermography_Inspection_Report_Automation_Demo.mp4
+│     └── Auto_Serial_Numbering_on_Report_Demo.mp4
+│
 │
 └── Screenshots
-│     ├── Before.png
-│     └── After.png
-│
-└── LICENSE
+      ├── Before.png
+      └── After.png
 
 ```
 
@@ -129,6 +129,7 @@ Inspection-Report-Automation
 |Automatic resizing|Automatic alignment|
 |Manual serial numbering|Automatic serial number insertion|
 |Hours of work|Few minutes|
+
 
 
 **Notes**
