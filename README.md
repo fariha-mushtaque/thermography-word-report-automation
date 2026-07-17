@@ -145,6 +145,7 @@ Inspection-Report-Automation
 | -------| ------|
 |Manual image insertion|Automatic resizing|
 |Automatic resizing|Automatic alignment|
+|Manual serial numbering|Automatic serial number insertion|
 |Hours of work|Few minutes|
 
 
